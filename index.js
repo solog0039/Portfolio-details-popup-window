@@ -1,58 +1,81 @@
 //  Project Data for projects in Work Section
-const ProjectsMobile = [{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-},
-{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-},
-{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-},
-{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-},
-{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-},
-{
-  Name: 'Profesional Art Printing Data',
-  Description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-  Tecnologies: ['HTML', 'bootstrap', 'Ruby'],
-  Link: 'see my project',
-}];
 
 //  Project Section Card creator
 
 const cardContainer = document.querySelector('#section-02');
-for (let i = 0; i < ProjectsMobile.length; i++) {
-  const projectM = `<div class="card-2">
-  <h2 class="prof-art">${ProjectsMobile[i].Name}</h2>
-  <p class="p22">${ProjectsMobile[i].Description}</p>
+// const arr = [0, 1, 2, 3, 4, 5];
+const projectM = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
   <ul class="skils">
-    <li class="button">${ProjectsMobile[i].Tecnologies[0]}</li>
-    <li class="skil button">${ProjectsMobile[i].Tecnologies[1]}</li>
-    <li class="skil button">${ProjectsMobile[i].Tecnologies[2]}</li>
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
   </ul>
   </div>
-  <button class ="see-project-2" id="seeproject${[i]}">${ProjectsMobile[i].Link}</button>
+  <button class ="see-project-2" id="seeproject0">see my project</button>
   `;
-  cardContainer.innerHTML += projectM;
-}
+cardContainer.innerHTML += projectM;
+const projectM2 = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
+  <ul class="skils">
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
+  </ul>
+  </div>
+  <button class ="see-project-2" id="seeproject1">see my project</button>
+  `;
+cardContainer.innerHTML += projectM2;
+const projectM3 = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
+  <ul class="skils">
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
+  </ul>
+  </div>
+  <button class ="see-project-2" id="seeproject2">see my project</button>
+  `;
+cardContainer.innerHTML += projectM3;
+const projectM4 = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
+  <ul class="skils">
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
+  </ul>
+  </div>
+  <button class ="see-project-2" id="seeproject3">see my project</button>
+  `;
+cardContainer.innerHTML += projectM4;
+const projectM5 = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
+  <ul class="skils">
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
+  </ul>
+  </div>
+  <button class ="see-project-2" id="seeproject4">see my project</button>
+  `;
+cardContainer.innerHTML += projectM5;
+const projectM6 = `<div class="card-2">
+  <h2 class="prof-art">Profesional Art Printing Data</h2>
+  <p class="p22">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard</p>
+  <ul class="skils">
+    <li class="button">HTML}</li>
+    <li class="skil button">bootstrap</li>
+    <li class="skil button">Ruby</li>
+  </ul>
+  </div>
+  <button class ="see-project-2" id="seeproject5">see my project</button>
+  `;
+cardContainer.innerHTML += projectM6;
 
 // Get the popup mobile
 const modal = document.getElementById('myModal');
@@ -62,7 +85,7 @@ modal.innerHTML = `<div class="modal-content">
  <span class="close">&times;</span>
  </div>
  <div>
-  <ul id="modalTech">
+  <ul id="modalTech" class ="modalTech">
       <li>HTML</li>
       <li>Bootstrap</li>
       <li>Ruby on rails</li>
@@ -88,38 +111,38 @@ const btn6 = document.getElementById('seeprojectt');
 const span = document.getElementsByClassName('close')[0];
 
 // When the user clicks the button, open the modal
-btn0.onclick = function () {
+function popupp() {
   modal.style.display = 'block';
+}
+btn0.onclick = function () {
+  popupp();
 };
 btn1.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 btn2.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 btn3.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 btn4.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 btn5.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 btn6.onclick = function () {
-  modal.style.display = 'block';
+  popupp();
 };
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+function closee() {
   modal.style.display = 'none';
+}
+span.onclick = function () {
+  closee();
 };
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};
 // DESK
 //  Project Data for projects in Work Section desk
 const cardDesk = document.querySelector('#card123');
@@ -222,21 +245,20 @@ const btn1d = document.getElementById('seeprojectyy');
 const spand = document.getElementsByClassName('closeD')[0];
 
 // When the user clicks the button, open the modal
-btn0d.onclick = function () {
+function popupd() {
   modalD.style.display = 'block';
+}
+btn0d.onclick = function () {
+  popupd();
 };
 btn1d.onclick = function () {
-  modalD.style.display = 'block';
+  popupd();
 };
 
 // When the user clicks on <span> (x), close the modal
-spand.onclick = function () {
+function closseed() {
   modalD.style.display = 'none';
-};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target === modalD) {
-    modalD.style.display = 'none';
-  }
+}
+spand.onclick = function () {
+  closseed();
 };
