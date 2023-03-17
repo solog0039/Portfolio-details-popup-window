@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: details popup window</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -29,7 +29,7 @@
 
 # 📖 Portfolio: desktop version <a name="about-project"></a>
 
-Portfolio: desktop version  project is the desktop version of my portiflio .
+Portfolio: details popup window is the  popup of my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 
