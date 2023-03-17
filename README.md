@@ -105,6 +105,12 @@ To run this project:
 - LinkedIn: [Solomon](www.linkedin.com/in/solomon-kidanu-62a994232)
 
 
+👤 Daniel Villalba Lynch
+
+- GitHub: [@gdvl777](https://github.com/gdvl777)
+- LinkedIn: [Daniel Villalba Lynch](https://www.linkedin.com/in/dvillalba777/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
