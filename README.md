@@ -108,7 +108,7 @@ To run this project:
 👤 Daniel Villalba Lynch
 
 - GitHub: [@gdvl777](https://github.com/gdvl777)
-- LinkedIn: [Daniel Villalba Lynch](https://www.linkedin.com/in/dvillalba777/)
+- LinkedIn: [Daniel Villalba L.](https://www.linkedin.com/in/dvillalba777/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
