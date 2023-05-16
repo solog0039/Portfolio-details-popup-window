@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: details popup window</b></h3>
+  <h3><b>Portfolio: validate contact form</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: desktop version <a name="about-project"></a>
+# 📖 Portfolio: validate contact form <a name="about-project"></a>
 
-Portfolio: details popup window is the  popup of my portiflio .
+Portfolio: validate contact form is the  validation of my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 

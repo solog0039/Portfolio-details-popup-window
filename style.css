@@ -907,6 +907,13 @@ ul.Sk-list {
   opacity: 1;
 }
 
+.error-message {
+  color: red;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 /* desk top version */
 
 @media only screen and (min-width: 768px) {
@@ -1505,6 +1512,13 @@ ul.Sk-list {
   /* Contact form  */
   .upper-form {
     display: none;
+  }
+
+  .error-messaged {
+    color: red;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
   }
 
   .upper-form-desk {

@@ -175,29 +175,36 @@
       </li>
     </ul>
   </section>
-  <form class="upper-form" action="https://formspree.io/f/xoqrrprd" method="post">
+  <form class="upper-form upper-form-V" action="https://formspree.io/f/xoqrrprd" method="post">
     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch. </p>
-    <input type="text" maxlength="30" required placeholder="Full Name" class="full-name-m" name="usrname">
-    <input type="email" required placeholder="Email" class="email-m" name="usremail">
-    <textarea maxlength="500" id="msg" placeholder="Enter text here" class="messages-m" name="usrmessages"></textarea>
+    <input type="text" maxlength="30" id="name" required placeholder="Full Name" class="full-name-m name-V" name="usrname">
+    <input type="email" id="email" required placeholder="Email" class="email-m email-V" name="usremail">
+    <textarea maxlength="500" id="msg" placeholder="Enter text here" class="messages-m message-V" name="usrmessages"></textarea>
     <input type="submit" value="Get it touch" class="touch-m" name="usrsubmit">
   </form>
-
+  <div class="error">
+    <p class="error-message"></p>
+  </div>
   <form class="upper-form-desk" action="https://formspree.io/f/xoqrrprd" method="post">
     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch. </p>
     <div class="inputs-form">
       <div class="form-name-desk">
-        <input type="text" maxlength="30" required placeholder="Name" class="full-name-desk" name="usrname">
+        <input type="text" maxlength="30" id="named" required placeholder="Name" class="full-name-desk name-V" name="usrname">
         <input type="text" maxlength="30" id="lnm" required placeholder="Last Name" class="last-name-desk"
           name="usrname">
       </div>
-      <input type="email" required placeholder="Email" class="email-desk" name="usremail">
-      <textarea maxlength="500" id="msg" placeholder="Hello Solomon. I would like to get in touch with you..."
-        class="messages" name="usrmessages"></textarea>
+      <input type="email"  id="emaild"required placeholder="Email" class="email-desk email-V" name="usremail">
+      <textarea maxlength="500" class="msgd" id="msg" placeholder="Hello Solomon. I would like to get in touch with you..."
+        class="messages message-V" name="usrmessages"></textarea>
       <input type="submit" value="Get it touch" class="touch-d" name="usrsubmit">
+      <div class="errord">
+        <p class="error-messaged"></p>
+      </div>
     </div>
   </form>
-
+  <div class="error">
+    <p class="error-message"></p>
+  </div>
   <footer class="footer-social-media">
     <ul class="social-links">
       <li class="socia-git"><a href="https://github.com/solog0039"><img
